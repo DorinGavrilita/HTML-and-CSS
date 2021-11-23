@@ -6,95 +6,108 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Gavrilita Dorin CV</title>
+  <link rel="stylesheet" href="/assets/style.css">
 </head>
 
 <body>
-  <table cellspacing="15">
-    <tr>
-      <td>
-        <img src="avatar.jpg" width="200" alt="тут моя аватарка">
-      </td>
-      <td>
+  <div class="container">
+    <div class="info">
+      <img src="/assets/avatar.jpg" alt="тут моя аватарка" class="avatar">
 
+      <div class="info-text">
         <h1>Гаврилица Дорин</h1>
-        <p><em>Я студент высшего учебного заведения <strong>Республики Молдова USARB</strong>. Прохожу первый год
-            обучения по
-            специальности "Информатика(точные науки)". 2021-22</em></p>
+        <p>Я студент высшего учебного заведения <strong>Республики Молдова USARB</strong>. Прохожу первый год обучения
+          по
+          специальности Информатика(точные науки)". 2021-22гг.</p>
         <p>Мне нравится путешествовать, читать книги, заниматься спортом и учиться программировать!</p>
 
-      </td>
-    </tr>
-  </table>
+        <h4>Мои социальные сети</h4>
 
-  <hr>
+        <a target="_blanc" href="https://www.instagram.com/dorindream/">Instagram</a>
+        |
+        <a target="_blanc" href="https://t.me/dorin_dream">Telegram</a>
+      </div>
+    </div>
 
-  <h2>Мои социальные сети</h2>
-  <ul>
-    <li><a target="_blanc" href="https://www.instagram.com/dorindream/">Instagram</a></li>
-    <li><a target="_blanc" href="https://t.me/dorin_dream">Telegram</a></li>
-  </ul>
+    <div class="card bg-yellow">
+      <h2>Мои хобби</h2>
+      <ol class="list">
+        <li>Духовное возрастание</li>
+        <li>Здоровое питание</li>
+        <li>Спорт: домашние тренировки</li>
+        <li>Саморазвитие</li>
+        <li>Путешествовия</li>
+      </ol>
+    </div>
 
-  <hr>
-
-  <h2>Мои хобби</h2>
-  <ol>
-    <li>Духовное возрастание</li>
-    <li>Спорт: домашние тренировки</li>
-    <li>Саморазвитие</li>
-    <li>Путешествовия</li>
-  </ol>
-
-  <hr>
-
-  <h2>Образование</h2>
-  <table>
-    <tr>
-      <th>Учреждение</th>
-      <th>Специальность</th>
-      <th>Год</th>
-    </tr>
-    <tr>
-      <td>Музыкалка</td>
-      <td>Аккордеон</td>
-      <td>07.2021</td>
-    </tr>
-    <tr>
-      <td>Лицей им. Пушкина</td>
-      <td>Бакалавр</td>
-      <td>2018-2021</td>
-    </tr>
-  </table>
-
-  <hr>
-
-  <h2>Youtube курсы</h2>
-  <p>Шаги к здоровью</p>
-  <a target="_blanc" href="/step-to-health.html">Посмотреть список</a>
-
-  <hr>
-  <h2>Связаться со мной</h2>
-
-  <form action="/">
-    <label for="name">Ваше имя:</label>
-    <input type="text" id="name" placeholder="введите ваше имя">
-
-    <br>
-
-    <label for="email">Ваш Email:</label>
-    <input type="email" id="email" placeholder="введите email...">
-
-    <br>
-
-    <label for="text">Ваше сообщение:</label>
-    <br>
-    <textarea name="" id="text" cols="15" rows="3"></textarea>
-
-    <br>
-
-    <input type="submit" value="Связаться">
-  </form>
+    <div class="card bg-green">
+      <h2>Образование</h2>
+      <table class="table">
+        <tr>
+          <th>Учреждение</th>
+          <th>Специальность</th>
+          <th>Год</th>
+        </tr>
+        <tr>
+          <td>Музыкалка</td>
+          <td>Аккордеон</td>
+          <td>07.2021</td>
+        </tr>
+        <tr>
+          <td>Лицей им. Пушкина</td>
+          <td>Бакалавр</td>
+          <td>2018-2021</td>
+        </tr>
+      </table>
+    </div>
 
 
+    <div class="card bg-red">
+      <h2>Youtube курсы</h2>
+      <p>Шаги к здоровью</p>
+      <ul class="link-list">
+        <li>
+          <a target="_blanc" href="https://www.youtube.com/playlist?list=PLeMyXEnOCONCnQi1NnoKtTnvcivyCpnZS">Про
+            здоровье</a>
+        </li>
+        <li>
+          <a target="_blanc" href="https://youtube.com/playlist?list=PL23KLEQuNec8FReEMUpx14fhDWc3TDPhp"> Фильмы о
+            пользе растительного питания<a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="contact">
+      <h2>Связаться со мной</h2>
+      <form action="/">
+        <div class="row">
+          <div class="form-group">
+            <label for="name">Ваше имя:</label>
+            <input type="text" id="name" placeholder="введите ваше имя">
+          </div>
+
+          <div class="form-group">
+            <label for="email">Ваш email:</label>
+            <input type="email" id="email" placeholder="введите email...">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="text">Ваше сообщение:</label>
+          <textarea name="" id="text" cols="15" rows="3"></textarea>
+        </div>
+
+        <input class="btn" type="submit" value="Связаться">
+      </form>
+    </div>
+    
+    <div class="position">
+      <div class="box"></div>
+    </div>
+  </div> 
+
+  <div style="margin-bottom: 500px;"></div>
+  </div>
 </body>
 
 </html>
