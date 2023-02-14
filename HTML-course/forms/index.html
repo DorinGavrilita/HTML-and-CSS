@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="main.css">
+	<title>how to create forms on HTML</title>
+</head>
+
+<body>
+
+	<center id="first">
+		<h1>Теги: <kbd>&lt;form&gt;</kbd> , <kbd>&lt;input&gt;</kbd>, <kbd>&lt;label&gt;</kbd></h1>
+		<hr width=" 700" color="#00a8db" size="6">
+		<table border="1" cellpadding="5">
+			<tr bgcolor="#00e03c">
+				<th>Атрибуты тега form</th>
+				<th>Атрибуты тега input</th>
+				<td>Атрибуты тега label</td>
+				<td>Значение атрибута <b>type</b></td>
+			</tr>
+			<tr>
+				<td>
+					action <br>
+					name <br>
+					method <br>
+					target <br>
+				</td>
+				<td>
+					checked <br>
+					disable <br>
+					name <br>
+					placeholder <br>
+					required <br>
+					value <br>
+					form <br>
+					<b>type</b> <br>
+				</td>
+				<td>
+					for
+				</td>
+				<td>
+
+				</td>
+			</tr>
+		</table>
+
+		<form action="">
+			<label title="Dorin" for="myname">It's my name: </label><br>
+			<input type="text" name="" id=""><br>
+			<input type="checkbox" name="" id=""><br>
+			<input type="radio" name="" id=""><br>
+			<input type="submit" value="Message" name="" id=""><br>
+			<input type="button" value="Text" name="" id=""><br>
+			<input type="reset" name="" id=""><br>
+			<input type="file" name="" id=""><br>
+			<input id="first_name" type="text" name="" id=""><br>
+			<input type="password" placeholder="password" name="" id=""><br>
+			<input type="email" placeholder="email" name="" id=""><br>
+			<input type="number" placeholder="number" name="" id=""><br>
+			<input type="date" placeholder="date" name="" id=""><br>
+			<input type="color" name="" id=""><br>
+			<input type="range" value="Nikolay" name="" id="">Nikolay<br>
+			<input type="radio" value="Ivan" name="" id="">Ivan<br>
+			<input type="radio" value="Dorin" name="" id="myname">Dorin<br>
+			<input type="radio" value="Denis" name="" id="">Denis<br>
+		</form>
+	</center>
+
+	<center>
+		<h1>Теги: <kbd>&lt;textarea&gt;</kbd> и <kbd>&lt;button&gt;</kbd></h1>
+		<hr width="700" color="#00a8db" size="6">
+		<table border="1" cellpadding="5">
+			<tr bgcolor="#00e03c">
+				<td>Атрибуты тега textarea</td>
+				<td>Атрибуты тега button</td>
+				<td>Значение атрибута <b>type</b></td>
+			</tr>
+			<tr>
+				<td>
+					cols <br>
+					rows <br>
+					disable <br>
+					form <br>
+					maxlength <br>
+					name <br>
+					placeholder <br>
+					required <br>
+				</td>
+				<td>
+					form <br>
+					disable <br>
+					name <br>
+					value <br>
+					<b>type</b> <br>
+				</td>
+				<td>
+					button, reset, submit
+				</td>
+			</tr>
+		</table>
+	</center><br>
+
+	<form action="">
+		<textarea draggable="true" dropzone="link" name="" id="" cols="110" rows="5" maxlength="10"></textarea>
+		<button type="reset" value="Hello">Clear</button>
+	</form><br>
+
+	<center>
+		<h1>Теги: <kbd>&lt;textarea&gt;</kbd> и <kbd>&lt;button&gt;</kbd></h1>
+		<hr width="700" color="#00a8db" size="6">
+	</center>
+
+	<form action="">
+		<select name="" id="">
+			<option value="">banana</option>
+			<option value="">orange</option>
+			<option value="">apple</option>
+			<option value="">cherry</option>
+		</select>
+	</form><br>
+
+	<hr>
+
+	<center>
+		<form action="">
+			<fieldset>
+				<legend align="right">Форма регистрации.</legend>
+				<table>
+					<tr>
+						<td><label for="name">Введите имя:</label></td>
+						<td><input id="name" type="text" placeholder="Имя"></td>
+					</tr>
+					<tr>
+						<td><label for="mail">Введите email:</label></td>
+						<td><input id="mail" type="email" placeholder="Почта"></td>
+					</tr>
+					<tr>
+						<td><label for="phone">Введите моб.номер:</label></td>
+						<td><input id="phone" type="" placeholder="Моб.номер"></td>
+					</tr>
+					<tr>
+						<td><label for="message">Введите сообщение:</label></td>
+						<td><textarea id="message" name="" id="" cols="50" rows="7" placeholder="Сообщение"></textarea></td>
+					</tr>
+				</table>
+				<button type="submit">Отправить</button>
+			</fieldset>
+		</form>
+	</center>
+
+
+</body>
+
+</html>

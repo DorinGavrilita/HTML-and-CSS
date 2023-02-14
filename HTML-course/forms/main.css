@@ -1,0 +1,35 @@
+body {
+	padding-bottom: 50px;
+	margin-bottom: 50px;
+}
+
+center#first {
+
+	margin-bottom: 50px;
+}
+
+fieldset {
+	width: 800px;
+
+}
+
+form legend,
+form label {
+	font-size: large;
+	font-weight: bold;
+}
+
+form button {
+	height: 50px;
+	font-size: 20px;
+	background: rgb(238, 235, 68);
+	border-radius: 10px;
+	padding: 10px 15px;
+	line-height: 25px;
+	border: none;
+}
+
+form button:hover {
+	background: hsl(96, 59%, 54%);
+	color: #fff;
+}
